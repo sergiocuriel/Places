@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Places</string>
+    <string name="autocomplete_hint">Ingresa un lugar...</string>
+    <string name="selected_place">Ultimo lugar elegido:</string>
+    <string name="clear_text">Limpiar</string>
+
+    <!-- getString(String, Object...) no soporta HTML por lo que tiene que ser codificado primero: <b>%1$s</b><br/><i>Place Id: %2$s</i><br/>Address: %3$s<br/>Phone: %4$s<br/>Website: %5$s-->
+    <string name="place_details">&lt;b&gt;%1$s&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Place Id: %2$s&lt;/i&gt;&lt;br/&gt;Address: %3$s&lt;br/&gt;Phone: %4$s&lt;br/&gt;Website: %5$s</string>
+</resources>
